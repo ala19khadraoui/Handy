@@ -5,7 +5,7 @@ import ShoppingIcon from '../assets/Shopping.png'
 import LoginIcon from '../assets/LogIn.png'
 const Navbar = () => {
     return(<>
-<div className="flex justify-between items-center bg-[#EBD7BF] h-[76px] w-full px-6 border border-[#EBD7BF] opacity-100 fixed top-0 z-10 ">
+<div className="flex justify-between items-center h-[76px] bg-[#EBD7BF]  w-full px-6 border border-[#EBD7BF] opacity-100 fixed top-0 z-10 ">
 <img alt="" src="" className="h-12"/>
 <ul className="flex space-x-8">
     <li><a href=""><h1 className="text-[24px] font-semibold text-gray-800 hover:text-gray-600  ">Home</h1></a></li>
